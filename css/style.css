@@ -96,6 +96,7 @@ h2 {
     font-weight: 400;
     color: #969696;
     height: 8px;
+    text-align: right;
 }
 .header__feedback {
     border: 2.0px solid #292929;
@@ -119,6 +120,18 @@ h2 {
     padding: 26px 60px;
     align-items: center;
     z-index: 5;
+}
+
+.btn__menu {
+    width: 40px;
+    display: none;
+}
+.btn__menu div {
+    height: 7px;
+    background-color: #ffcc00;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    border: 1px solid #000000;
 }
 
 .slider {
@@ -168,13 +181,14 @@ h2 {
 }
 
 .stock {
-    padding: 80px;
+    padding: 75px;
 }
 .stock__items {
     display: flex;
     justify-content: space-between;
 }
 .stock__item {
+    margin: 5px 0;
     width: 300px;
     border: 2.0px solid #f6f6f6;
     text-align: center;
@@ -218,7 +232,7 @@ h2 {
 
 .advantage {
     background-color: #f4f4f4;
-    padding: 80px;
+    padding: 75px;
 }
 .advantage__items {
     display: flex;
@@ -228,6 +242,7 @@ h2 {
     width: 300px;
     border: 2.0px solid #ffffff;
     text-align: center;
+    margin: 5px 0;
 }
 .advantage__item:hover {
     background-color: #fff;
@@ -250,13 +265,14 @@ h2 {
 }
 
 .popular {
-    padding: 80px;
+    padding: 75px;
 }
 .popular__items {
     display: flex;
     justify-content: space-between;
 }
 .popular__item {
+    margin: 5px 0;
     text-align: center;
     width: 220px;
     border: 2.0px solid #f6f6f6;
@@ -315,7 +331,7 @@ h2 {
 
 .service {
     background-color: #f4f4f4;
-    padding: 80px;
+    padding: 75px;
 }
 .service__title {
     font-size: 20px;
@@ -331,6 +347,7 @@ h2 {
     border: 2.0px solid #ffffff;
     text-align: center;
     width: 300px;
+    margin: 5px 0;
 }
 .service__item-img {
     min-height: 200px;
@@ -349,12 +366,6 @@ h2 {
     background: url(../img/map.jpg) no-repeat center;
     height: 520px;
     position: relative;
-}
-.map::after {
-    content: url(../img/location_pin.png);
-    position: absolute;
-    top: 227px;
-    left: 510px;
 }
 .map__contact {
     background-color: #fff;
@@ -439,8 +450,6 @@ h2 {
     height: 10px;
 }
 
-.footer__phone {
-}
 .footer__phone-number {
     height: 13px;
     font-size: 18px;
