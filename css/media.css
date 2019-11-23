@@ -73,7 +73,6 @@
 @media (max-width: 745px) {
     .header__feedbacks {
         display: grid;
-        flex-wrap: wrap;
     }
     .header__feedback {
         padding: 10px;
@@ -97,5 +96,39 @@
 }
 
 @media (max-width: 565px) {
-    
+    .header__inner {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .btn__menu {
+        padding-top: 5%;
+    }
+    .header__phone {
+        margin: 0 0 15px 0;
+    }
+}
+
+@media (max-width: 565px) {
+    .map__contact {
+        width: 290px;
+        padding: 50px 0 53px 30px;
+        margin: 80px -8px;
+    }
+    .footer__inner {
+        flex-wrap: wrap;
+    }
+    .footer__phone-number {
+        text-align: left;
+    }
+    .footer__logo {
+        margin-bottom: 15px;
+    }
+    .copyright {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: baseline;
+    }
+    .footer__feedback {
+        margin-bottom: 10px;
+    }
 }
