@@ -247,6 +247,7 @@ h2 {
 .advantage__item:hover {
     background-color: #fff;
     box-shadow: 4px 8px 21px 0px rgba(0,0,0,0.05);
+    transition: 0.2s;
 }
 .advantage__item-img {
     margin: 40px auto;

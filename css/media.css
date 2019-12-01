@@ -101,7 +101,7 @@
         flex-direction: column;
     }
     .btn__menu {
-        padding-top: 5%;
+        padding-top: 50px;
     }
     .header__phone {
         margin: 0 0 15px 0;
@@ -130,5 +130,8 @@
     }
     .footer__feedback {
         margin-bottom: 10px;
+    }
+    .service__item {
+        width: 100%;
     }
 }
