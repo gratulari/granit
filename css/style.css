@@ -122,11 +122,11 @@ h2 {
     z-index: 5;
 }
 
-.btn__menu {
+.mobile__menu {
     width: 40px;
     display: none;
 }
-.btn__menu div {
+.mobile__menu div {
     height: 7px;
     background-color: #ffcc00;
     margin-bottom: 5px;

@@ -43,7 +43,7 @@
         border-bottom: 1px solid #000;
         background-color: #ffcc00;
     }
-    .btn__menu {
+    .mobile__menu {
         display: block;
     }
     .header__inner {
@@ -100,7 +100,7 @@
         flex-wrap: wrap;
         flex-direction: column;
     }
-    .btn__menu {
+    .mobile__menu {
         padding-top: 50px;
     }
     .header__phone {
